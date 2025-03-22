@@ -1,0 +1,16 @@
+1. npm manages packages but it does not stands for node package manager.
+2. package.json is the configuration for npm.
+3. bundler bundles the app or we can say packages the app so that it can be shift to production. ex-vite, 
+parcel etc.
+4. npm i -D parcel -> to install parcel in our project
+5. carat(^) -> in case of minor upgrades parcel automatically upgrades its version ex-2.3.4 and suppose if 
+2.3.5 is related so it will automatically upagrades to 2.3.5.
+6. tilde(~) -> it is use in case of major upagrades. 
+7. packagelock.json locks the version and keeps the record of it.
+8. integrity in packagelock.json -> it ensures whatever version of packages we installed in our project must be same on production.
+9. when we run this command npm i -D parcel, we can see a node modules and in that there are a lot of 
+dependencies over there. but we installed parcel only, this happens bcz even parcel is dependent on some other dependencies and even those dependencies can dependent on some other dependencies this is known as transitive dependencies.
+10. in our project we have 2 packagelock.json (1 inside node modules and another in our project) and multiple package.json that comes up with each dependency(in node modules) and 1 in our project.
+11. npx parcel index.html -> to execute the file, using this command parcel will generate a development build of our project and hosted it on 1234(a dist folder inside our project).
+12. when we use 'import React from 'react'' which we are importing react into our file from our node modules.
+13. parcel is doing HMR(hot module replacement).
