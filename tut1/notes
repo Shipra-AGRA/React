@@ -1,6 +1,6 @@
 1. cdn are content delivery network, these are the website where this react has been hosted and we are just
 pulling react into our project.
-2. if we cdn scripts into our project we can see on browser's console that react is injected into our project.
+2. if we use cdn scripts into our project we can see on browser's console that react is injected into our project.
 3. react-dom is a library which is useful for dom operations.
 4. creating an element is a part of react but creating a root is a part of ReactDOM.
 5. root.render is use to inject something into the root.
