@@ -14,3 +14,4 @@ dependencies over there. but we installed parcel only, this happens bcz even par
 11. npx parcel index.html -> to execute the file, using this command parcel will generate a development build of our project and hosted it on 1234(a dist folder inside our project).
 12. when we use 'import React from 'react'' which we are importing react into our file from our node modules.
 13. parcel is doing HMR(hot module replacement).
+14. we can write 'npm run start' or 'npm start' both are same but not in case of others. 
