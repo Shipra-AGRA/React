@@ -1,0 +1,11 @@
+1. JSX is html like syntax inside javascript not HTML.
+2. browser doesn't understand JSX the code is transpiled before going to the js engine and js engine receives
+the code that browser can understand and this transpilation is done by parcel although parcel uses babel
+to do this job(consider parcel is a manager of babel).
+Jsx -> converted into React.createElement -> JS object -> HTML element 
+jsx to React.createElement is done by babel.
+3. while writing JSX, if there is only one line don't need to put () but in case of multiple lines need to 
+put ().
+4. a function that returns a react element or JSX is functional component.
+5. component composition -> a component inside another component.
+6. JSX prevents cross side scripting attacks that can occur while calling an api as an api can return some malicious data.
